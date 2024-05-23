@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: krill-dotnet-basic-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/krill-dotnet-basic-gitops
